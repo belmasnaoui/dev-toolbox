@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xaml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>style</Shortcut>
+      <_Description>Declares a Style attribute with a single Setter.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="key">
+        <Default>styleKey</Default>
+      </Variable>
+      <Variable name="targetType">
+        <Default>Label</Default>
+      </Variable>
+      <Variable name="setterProperty">
+        <Default>BackgroundColor</Default>
+      </Variable>
+      <Variable name="setterValue">
+        <Default>White</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[<Style x:Key="$key$" TargetType="$targetType$">
+    <Setter Property="$setterProperty$" Value="$setterValue$" />
+</Style>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

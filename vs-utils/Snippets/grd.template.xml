@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xaml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>grd</Shortcut>
+      <_Description>Defines Row Definitions for a grid.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="row0">
+        <Default>Auto</Default>
+      </Variable>
+      <Variable name="row1">
+        <Default>Auto</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[<Grid.RowDefinitions>
+    <RowDefinition Height="$row0$" />
+    <RowDefinition Height="$row1$" />
+</Grid.RowDefinitions>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

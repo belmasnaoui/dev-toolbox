@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xaml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>gcd</Shortcut>
+      <_Description>Defines Grid Columns declaration.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="col0">
+        <Default>Auto</Default>
+      </Variable>
+      <Variable name="col1">
+        <Default>Auto</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[<Grid.ColumnDefinitions>
+    <ColumnDefinition Width="$col0$" />
+    <ColumnDefinition Width="$col1$" />
+</Grid.ColumnDefinitions>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

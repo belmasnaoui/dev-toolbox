@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>C#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>propbind</Shortcut>
+      <_Description>Declares a bindable property.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="propName">
+        <Default>Name</Default>
+      </Variable>
+      <Variable name="propType">
+        <Default>string</Default>
+      </Variable>
+      <Variable name="declaringType">
+        <Default>VisualElement</Default>
+      </Variable>
+      <Variable name="defValue">
+        <Default>string.Empty</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[public static readonly BindableProperty $propName$Property =
+    BindableProperty.Create(nameof($propName$),
+        typeof($propType$),
+        typeof($declaringType$),
+        $defValue$);
+
+public $propType$ $propName$ {
+    get => ($propType$)GetValue($propName$Property);
+    set => SetValue($propName$Property, value);
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>resdt</Shortcut>
+      <_Description>Declares a Resource File data attribute.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name">
+        <Default>Name</Default>
+      </Variable>
+      <Variable name="value">
+        <Default>Value</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[<data name="$name$" xml:space="preserve">
+    <value>$value$</value>
+    <comment></comment>
+</data>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

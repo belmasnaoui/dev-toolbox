@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xaml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>stl</Shortcut>
+      <_Description>Declares a StackLayout.</_Description>
+      <TemplateType>Expansion, SurroundsWith</TemplateType>
+    </Header>
+    <Variables />
+    <Code><![CDATA[<StackLayout>
+    $selected$$end$
+</StackLayout>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

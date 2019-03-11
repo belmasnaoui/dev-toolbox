@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>xaml</_Group>
+      <Version />
+      <MimeType>application/xml</MimeType>
+      <Shortcut>grid</Shortcut>
+      <_Description>Defines a new XAML Grid with 2 rows and 2 columns.</_Description>
+      <TemplateType>Expansion, SurroundsWith</TemplateType>
+    </Header>
+    <Variables />
+    <Code><![CDATA[<Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    $selected$$end$
+</Grid>]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

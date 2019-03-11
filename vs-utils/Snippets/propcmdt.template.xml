@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>C#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>propcmdt</Shortcut>
+      <_Description>Declares a Command Property with a typed parameter for a ViewModel.</_Description>
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="name">
+        <Default>Back</Default>
+        <_ToolTip>The name of the command to be declared.</_ToolTip>
+      </Variable>
+      <Variable name="argType">
+        <Default>string</Default>
+        <_ToolTip>The type of the command argument.</_ToolTip>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[public ICommand $name$Command => new Command<$argType$>((arg) => {
+    $end$
+});]]></Code>
+  </CodeTemplate>
+</CodeTemplates>

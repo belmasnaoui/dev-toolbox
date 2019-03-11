@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>C#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>propvm</Shortcut>
+      <_Description>Visual Studio Code Snippet for declaring a View Model Property.</_Description>
+      <TemplateType>Expansion</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="propType">
+        <Default>string</Default>
+        <_ToolTip>The property type.</_ToolTip>
+      </Variable>
+      <Variable name="fieldName">
+        <Default>name</Default>
+        <_ToolTip>The backing field name.</_ToolTip>
+      </Variable>
+      <Variable name="propName">
+        <Default>Name</Default>
+        <_ToolTip>The property name.</_ToolTip>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[$propType$ _$fieldName$;
+public $propType$ $propName$ {
+    get => _$fieldName$;
+    set => SetProperty(ref _$fieldName$, value);
+}]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
