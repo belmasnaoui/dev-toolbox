@@ -44,7 +44,11 @@ emulator -avd nexus5x_api27 &
 >Notice the use of `$ANDROID_HOME` environment variable. The file [base.bash_profile](../environment/base.bash_profile) shows how this could be setup.
 
 ## Connect from the virtual machine
+On the client from where you to connect to the emulator run the following command:
 
+```bash
+adb connect RAVEROMBP15.local:5555
+```
 
 ## References
 * [Is it possible to connect to Android emulators running on a Mac from a Windows VM?](https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/connect-android-emulator-mac-windows)
