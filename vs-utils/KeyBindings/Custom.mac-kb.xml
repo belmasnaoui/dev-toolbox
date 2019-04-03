@@ -1,0 +1,6 @@
+﻿<schemes version="1.0">
+  <scheme name="current">
+    <binding command="MonoDevelop.UnitTesting.Commands.TestCommands.RunAllTests" shortcut="Alt+Shift+Meta+T" />
+    <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.ShowCodeSurroundingsWindow" shortcut="Alt+Shift+S" />
+  </scheme>
+</schemes>

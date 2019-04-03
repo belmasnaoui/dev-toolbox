@@ -8,13 +8,22 @@ A list of apps that I use on a daily basis, for both specific and productivity t
 * [**Spectacle**](https://www.spectacleapp.com): Brings Window Management shortcuts to macOS, very close to what exists in Windows.
 * [**Night Owl**](https://nightowl.kramser.xyz): Automatically switch between dark and light mode in macOS Mojave.
 
+## Environment
+Environment setup and utilities, such as scripts:
+
+* [**base.bash_profile**](environment/base.bash_profile): The basic `.bash_profile` that I use on my environment.
+
 ## Microsoft and .NET Development
 Tools, utilities, tips and references for Microsoft and .NET development.
 
 ### Visual Studio Utilities
 Overtime I intend to bring a collection of utilities to use with Visual Studio for Mac and Windows. The utilities lies on `vs-utils` folder.
 
-* **Snippets for Visual Studio for Mac**: a collection of my own indispensable code snippets that I use daily. Can be easily installed using the `install-snippets.sh` script.
+* **Snippets for Visual Studio Mac (2019)**: a collection of my own indispensable code snippets that I use daily.
+* **Key Bindings for Visual Studio Mac (2019)**: the configuration file of the custom key-bindings that I use on Visual Studio.
+* **EditorConfig base settings**: the basic `.editorconfig` with code style that I use on my projects.
+
+Snippets and Bindings can be easily installed using the `install.sh` script.
 
 ### Visual Studio Code Extensions
 Code has a great extensibility and a lot of useful tools.
