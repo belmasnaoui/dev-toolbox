@@ -5,8 +5,8 @@
       <_Group>C#</_Group>
       <Version>1.0</Version>
       <MimeType>text/x-csharp</MimeType>
-      <Shortcut>propg</Shortcut>
-      <_Description>Template for a read-only property without initializer.</_Description>
+      <Shortcut>propgo</Shortcut>
+      <_Description>Template for implicit read-only property with initializer.</_Description>
       <TemplateType>Expansion</TemplateType>
     </Header>
     <Variables>
@@ -19,6 +19,6 @@
         <_ToolTip>Property name</_ToolTip>
       </Variable>
     </Variables>
-    <Code><![CDATA[public $type$ $name$ { get; }]]></Code>
+    <Code><![CDATA[public $type$ $name$ { get; } = new $type$;]]></Code>
   </CodeTemplate>
 </CodeTemplates>
