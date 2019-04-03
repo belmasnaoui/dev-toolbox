@@ -11,7 +11,7 @@ A list of apps that I use on a daily basis, for both specific and productivity t
 ## Environment
 Environment setup and utilities, such as scripts:
 
-* [**base.bash_profile**](environment/base.bash_profile): The basic `.bash_profile` that I use on my environment.
+* [**macos.bash_profile**](environment/macos.bash_profile): The basic `.bash_profile` that I use on my **macOS** environment.
 
 ## Microsoft and .NET Development
 Tools, utilities, tips and references for Microsoft and .NET development.
@@ -30,6 +30,11 @@ Code has a great extensibility and a lot of useful tools.
 
 * [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync): Synchronize settings accross development environments using GitHub Gists. Even though it's a lot of manual steps to do the synchronization, it works fine since settings don't change very often. Also very useful when setting up new environments.
 * [**REST Client**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client): One of the most impressive extensions that I saw for VS Code. It allows writing HTTP requests from text files, much the same way tou would on `curl`. You can write a sequence of calls and all the sort of testing for HTTP API's.
+
+# Docs
+Useful articles and documents:
+
+* [Connecting to Android Emulator over Network](docs/connect-emu.md): describes how to connect to an Android Emulator running on a macOS machine from Virtual Machines.
 
 # References
 Some of the references that I've used to build this toolbox:
