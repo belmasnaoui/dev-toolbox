@@ -7,11 +7,14 @@ A list of apps that I use on a daily basis, for both specific and productivity t
 * [**Alfred**](https://www.alfredapp.com): replaces entirely the Spotlight with tons of useful new functionalities. Investing on the PowerPack may allow you to replace other tools such as _Paste_ and _TextExpander_, the later with an subscription investment that is expensive since there's almost no more upgrades to the app ever since I started using it. 
 * [**Spectacle**](https://www.spectacleapp.com): Brings Window Management shortcuts to macOS, very close to what exists in Windows.
 * [**Night Owl**](https://nightowl.kramser.xyz): Automatically switch between dark and light mode in macOS Mojave.
+* [**QuickLook Plugs**](https://github.com/sindresorhus/quick-look-plugins): this site keeps a list of one of the most useful and productive macOS QuickLook plugins that I've found.
 
 ## Environment
 Environment setup and utilities, such as scripts:
 
 * [**macos.bash_profile**](environment/macos.bash_profile): The basic `.bash_profile` that I use on my **macOS** environment.
+
+I keep an [article with steps to setup my environment/computer](docs/environment-setup-script.md) that I found to be very useful, since I need to setup a new a computer or format an old one from time to time.
 
 ## Microsoft and .NET Development
 Tools, utilities, tips and references for Microsoft and .NET development.
