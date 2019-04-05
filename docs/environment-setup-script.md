@@ -38,17 +38,18 @@ I'm an old user of Setapp. The platform is very hand and has a good software off
 ### 4. Install Other Software
 There's a list of the other software that I download directly from the vendors that are either free or I bought out of stores:
 
-* 1Password
-* Alfred
-* Dropbox
-* Visual Studio for Mac
-* Visual Studio Code
-* GitKraken
+* [1Password](https://1password.com/downloads/mac/): my password manager, the first tool that I install.
+* [Alfred](https://www.alfredapp.com): this is what Spotlight should be.
+* [Dropbox](https://www.dropbox.com/downloading): just to keep Alfred settings in sync. Sometimes also need to share something.
+* [Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/)
+* [Visual Studio Code](https://code.visualstudio.com/download): outside Visual Studio specific projects, Code is my text file editor of preference.
+* [GitKraken](https://www.gitkraken.com/download): my favorite Git client.
 * Azure Data Studio
 * Azure Storage Explorer
 * Postman
 * Gorilla Player
 * Charles
+* Reflection 3
 * Parallels Desktop
 * Docker
 * Skype
@@ -58,11 +59,21 @@ There's a list of the other software that I download directly from the vendors t
 * iMazing
 * Node.js
 * Python
+* Firefox
+* Google Chrome
 
 ### 5. Install QuickLook Plugins
 [There's a collection of QuickLook Plugins on this site](https://github.com/sindresorhus/quick-look-plugins) that I found to be really useful and productive, even because they provide access to information that it's hard to get other way. They're mostly useful for programmers and designers.
 
 ### 6. Install Fonts
+I have some fonts that I use throught the system, either 'cause finding them to be more readable for the workload (such as _Input_ font), either by using them on documents and presentations. The list of the font's I currently install on all of my systems:
+
+* [Input](http://input.fontbureau.com): great for IDE's such as Visual Studio or Xcode.
+* [San Francisco](https://developer.apple.com/fonts/): the fonts that Apple have created for newer versions of iOS and macOS to substitute Helvetica. Oddly it's not installed by default.
+* [Josefins Sans](https://www.fontsquirrel.com/fonts/josefin-sans): I've used this font on some of my presentations and documents.
+* [Montserrat](https://fonts.google.com/specimen/Montserrat): I've used this font on some of my presentations and documents.
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans): I've used this font on some of my presentations and documents.
+* [Roboto](https://fonts.google.com/specimen/Roboto): This is the standard Android font. Sometimes I need to reference it in some of my apps, reason why I need it installed.
 
 ### 7. Setup Visual Studio
 
@@ -73,3 +84,6 @@ Use the vs-utils folder from this repository to add snippets and other settings.
 Use the Sync Extension to synchronize all the extensions and settings. 
 
 ### 8. Setup Bash Environment
+
+### 9. Setup Wallpapers
+I keep a folder of my favorite wallpapers to let it roll on my desktop. Seems a dumb concern, but it's good to see some different pictures on the screen that you look the whole day.
