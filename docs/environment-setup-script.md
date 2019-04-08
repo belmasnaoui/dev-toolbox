@@ -88,3 +88,17 @@ Use the Sync Extension to synchronize all the extensions and settings.
 
 ### 9. Setup Wallpapers
 I keep a folder of my favorite wallpapers to let it roll on my desktop. Seems a dumb concern, but it's good to see some different pictures on the screen that you look the whole day.
+
+### 10. Setup Safari Settings and Extensions
+On Safari, there are some important settings for my workflow:
+
+* On the general tab: 
+    * Safari opens with: All windows from last session
+* On the tabs tab:
+    * Show website icons in tabs (very useful for visual identification of the tabs)
+* On the Advanced tab:
+    * Show developer menu in menu bar - this also allow the `Inspect` right-click menu option.
+
+Also, I use the following extensions (links provided since most of them aren't migrated to App Store as of macOS Mojave):
+* [Evernote Web Clipper](https://safari-extensions.apple.com/details/?id=com.evernote.safari.clipper-Q79WDW8YH9): Evernote is my knowledge bag and I use the clipper to save pages and links of important references.
+* [Save to Pocket](https://safari-extensions.apple.com/details/?id=com.ideashower.pocket.safari-ET279A6R5N): I try to reduce the number of open tabs by saving most of them to Pocket.
