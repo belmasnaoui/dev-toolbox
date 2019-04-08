@@ -61,6 +61,7 @@ There's a list of the other software that I download directly from the vendors t
 * Python
 * Firefox
 * Google Chrome
+* [Musixmatch](http://about.musixmatch.com/desktop-app): because I like singing. The desktop client works pretty fine.
 
 ### 5. Install QuickLook Plugins
 [There's a collection of QuickLook Plugins on this site](https://github.com/sindresorhus/quick-look-plugins) that I found to be really useful and productive, even because they provide access to information that it's hard to get other way. They're mostly useful for programmers and designers.
