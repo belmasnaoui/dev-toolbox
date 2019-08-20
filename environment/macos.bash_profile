@@ -4,3 +4,7 @@ export ANDROID_HOME=~/Library/Developer/Xamarin/android-sdk-macosx
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Create as alias for nuget
+alias nuget="mono /usr/local/bin/nuget.exe"
+
